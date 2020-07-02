@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+  <style>
+    .rc-wrapper {
+      width: 80%;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+    }
+    #reviews-app {
+      flex: 2;
+    }
+    #calendar-app {
+      position: relative !important;
+      flex: 1;
+      justify-content: flex-end;
+    }
+
+
+  </style>
+</head>
+
+<body>
+  <div id='photo-app'> </div>
+  <div class='rc-wrapper'>
+  <div id='reviews-app'> </div>
+  <div id='calendar-app' > </div>
+  </div>
+  <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+  <script src="http://localhost:3001/rooms/1/bundle.js"></script>
+  <script src="http://localhost:3002/rooms/1/bundle.js"></script>
+  <script src="http://localhost:3004/rooms/1/bundle.js"></script>
+</body>
+</html>
